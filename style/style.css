@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'JosefinSans-Thin'; 
+    src: url('fonts/Josefin_Sans/JosefinSans-Thin.ttf'); 
+}
+@font-face {
+    font-family: 'JosefinSans-Regular'; 
+    src: url('fonts/Josefin_Sans/JosefinSans-Regular.ttf'); 
+}
+@font-face {
+    font-family: 'JosefinSans-Bold'; 
+    src: url('fonts/Josefin_Sans/JosefinSans-Bold.ttf');
+}
+.thinText{
+ 	font-family: JosefinSans-Thin;
+}
+.regularText{
+	 font-family: JosefinSans-Regular;
+}
+.boldText{
+	 font-family: JosefinSans-Bold;
+}
+body{
+	  background-color: #315481;
+  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-attachment: fixed;
+ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  padding: 0;
+  margin: 0;
+ 
+  font-size: 14px;
+}
