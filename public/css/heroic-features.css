@@ -1,0 +1,134 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 50px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    height: 100%
+}
+
+#shop {
+    margin-top: 15%;
+}
+
+.hero-spacer {
+    margin: 10px;
+    width: 90%;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.jumboImg {
+    position: absolute;
+    z-index: 0;
+    margin-top: -10%;
+}
+
+.jumboImgShop {
+    margin-top: -10%;
+}
+
+.cta {
+    position: relative;
+    margin-top: 35%;
+    color: #000;
+    background-color: #fff
+}
+
+.cta2 {
+    position: relative;
+    margin-top: 35%;
+    color: #fff;
+    display: inline-block;
+    text-decoration-style: none;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+}
+
+.whiteBg {
+    background-color: #fff;
+    min-height: 200px;
+    box-shadow: 2px 1px 5px #ccc;
+    margin-top: 5%;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    float: none;
+    vertical-align: middle;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.productstitle {}
+
+.buyNow {
+    color: #fff;
+    background-color: #353536;
+}
+
+.nav > li > a {
+    display: inline;
+    padding: 10px 35px;
+}
+
+.navbar-collapse {
+    padding-bottom: 10px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: none;
+        margin-top: 10px;
+    }
+    .navbar-nav {
+        float: none;
+        display: inline-flex;
+        margin-top: -30px;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
+}
